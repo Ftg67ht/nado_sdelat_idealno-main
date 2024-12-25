@@ -9,7 +9,7 @@ html {
 }
 
 
-/* h1,
+h1,
 h2,
 h3,
 h4,
@@ -22,7 +22,7 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
-} */
+}
 
 a {
   color: inherit;
