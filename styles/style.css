@@ -73,14 +73,16 @@
   font-family: Raleway, sans-serif;
   background-color: #fec7ee;
   z-index: 0;
+  border: 2px dashed #b30909;
 }
 
 .page::before {
   content: "";
   position: absolute;
-  inset: 0;
+  inset: 20px;
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.3);
+  border: 2px dashed #b30909;
 }
 
 .page__video {
@@ -90,6 +92,7 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+  border: 4px dashed #9f09d6;
 }
 
 .page__title {
@@ -100,18 +103,20 @@
   letter-spacing: 3.5px;
   text-align: center;
   text-transform: uppercase;
+  border: 2px dashed #10a556;
 }
 
 .page__title::after {
   content: "*";
   position: relative;
   z-index: 1;
+  border: 2px dashed #10a556;
 }
 
 .page__title:hover {
   color: #4c4c4c;
   cursor: default;
-  
+  border: 2px dashed #10a556;
 }
 
 .page__title:hover::before {
@@ -138,4 +143,5 @@
   background-color: #fff;
   white-space: pre;
   z-index: 2;
+  border: 2px dashed #10a556;
 }
